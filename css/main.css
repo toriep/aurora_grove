@@ -6520,7 +6520,6 @@ button:focus {
     font-weight: 400; }
 
 #showcase {
-  background: url("../images/main.jpeg") bottom center/cover no-repeat;
   min-height: 700px;
   position: relative;
   font-family: 'Raleway', sans-serif; }
@@ -6549,6 +6548,21 @@ button:focus {
     cursor: pointer;
     -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both;
     animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s both; }
+
+/* [1] The container */
+.img-hover-zoom {
+  height: 300px;
+  /* [1.1] Set it as per your need */
+  overflow: hidden;
+  /* [1.2] Hide the overflowing of child elements */ }
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease; }
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5); }
 
 #icons, #explore, #quotes, #carousel {
   font-family: 'Open Sans', sans-serif; }
