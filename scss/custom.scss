@@ -68,7 +68,7 @@ button:focus {
   }
 }
 
-#icons, #quotes{
+#icons, #quotes, #socialMedia{
   padding-top: 20px;
   background: #f7f8f9;
 }
@@ -76,6 +76,13 @@ button:focus {
 #quotes{
   i{
     opacity: 0.3;
+  }
+}
+
+#socialMedia{
+  padding-bottom: 50px;
+  img{
+    cursor: pointer;
   }
 }
 

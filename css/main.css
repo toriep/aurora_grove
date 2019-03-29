@@ -6546,12 +6546,17 @@ button:focus {
   #icons p, #explore p, #quotes p, #carousel p {
     line-height: 185%; }
 
-#icons, #quotes {
+#icons, #quotes, #socialMedia {
   padding-top: 20px;
   background: #f7f8f9; }
 
 #quotes i {
   opacity: 0.3; }
+
+#socialMedia {
+  padding-bottom: 50px; }
+  #socialMedia img {
+    cursor: pointer; }
 
 #footer {
   font-weight: 100;
