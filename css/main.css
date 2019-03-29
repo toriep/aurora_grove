@@ -6504,16 +6504,20 @@ button:focus {
   left: 0;
   font-weight: 100;
   z-index: 3; }
+  .navbar .logo {
+    max-width: 30%;
+    height: auto; }
   .navbar .navbar-brand h3 {
     font-weight: 300; }
   .navbar .nav-item {
-    padding: 0 20px;
+    padding: 0 15px;
     text-transform: uppercase;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    font-family: "Open Sans";
+    font-size: 10px; }
   .navbar .nav-item:hover {
     transition: border 0.2s;
-    font-weight: 400;
-    border-bottom: 1px solid white; }
+    font-weight: 400; }
 
 #showcase {
   background: url("../images/main.jpeg") bottom center/cover no-repeat;
