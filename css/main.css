@@ -6535,8 +6535,10 @@ button:focus {
   #showcase #book {
     font-size: 1.5rem;
     border-radius: 2rem;
-    background: linear-gradient(to right, #009688, #4CAF50, #CDDC39);
-    border: none; }
+    background: linear-gradient(to bottom, #009688, #39dca3, #009688);
+    border: none;
+    font-family: 'Open Sans';
+    cursor: pointer; }
   #showcase h3 {
     font-family: 'Raleway'; }
 
@@ -6544,6 +6546,10 @@ button:focus {
   font-family: 'Open Sans', sans-serif; }
   #icons p, #explore p, #quotes p, #carousel p {
     line-height: 185%; }
+
+#icons, #quotes {
+  padding-top: 20px;
+  background: #f7f8f9; }
 
 #quotes i {
   opacity: 0.3; }
