@@ -79,10 +79,20 @@ button:focus {
   background: #f7f8f9;
 }
 
+#explore{
+  img{
+    cursor: pointer;
+  }
+}
+
 #quotes{
   i{
     opacity: 0.3;
   }
+}
+
+#carousel{
+  padding: 50px 0 70px 0;
 }
 
 #socialMedia{
