@@ -6507,9 +6507,12 @@ button:focus {
   .navbar .navbar-brand h3 {
     font-weight: 300; }
   .navbar .nav-item {
-    padding: 0 20px; }
+    padding: 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
   .navbar .nav-item:hover {
     transition: border 0.2s;
+    font-weight: 400;
     border-bottom: 1px solid white; }
 
 #showcase {
@@ -6537,10 +6540,13 @@ button:focus {
   #showcase h3 {
     font-family: 'Raleway'; }
 
-#icons, #explore {
+#icons, #explore, #quotes, #carousel {
   font-family: 'Open Sans', sans-serif; }
-  #icons p, #explore p {
+  #icons p, #explore p, #quotes p, #carousel p {
     line-height: 185%; }
+
+#quotes i {
+  opacity: 0.3; }
 
 @media (max-width: 768px) {
   .navbar {

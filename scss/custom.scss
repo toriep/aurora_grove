@@ -19,9 +19,12 @@ button:focus {
   }
   .nav-item{
     padding: 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
   .nav-item:hover{
     transition: border 0.2s;
+    font-weight: 400;
     border-bottom: 1px solid white;
   }
 }
@@ -58,10 +61,16 @@ button:focus {
   }
 }
 
-#icons, #explore{
+#icons, #explore, #quotes, #carousel{
   font-family: 'Open Sans', sans-serif;
   p {
     line-height: 185%;
+  }
+}
+
+#quotes{
+  i{
+    opacity: 0.3;
   }
 }
 
