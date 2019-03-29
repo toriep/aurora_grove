@@ -1,5 +1,6 @@
 body {
   font-family: 'Raleway', sans-serif;
+  color: #555555;
 }
 
 button:focus {
@@ -54,6 +55,13 @@ button:focus {
   }
   h3{
     font-family: 'Raleway';
+  }
+}
+
+#icons, #explore{
+  font-family: 'Open Sans', sans-serif;
+  p {
+    line-height: 185%;
   }
 }
 
