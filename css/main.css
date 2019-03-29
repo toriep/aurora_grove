@@ -31,8 +31,8 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: Quicksand, sans-serif;
-  --font-family-monospace: Ubuntu Mono, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
 *::before,
@@ -54,7 +54,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: Quicksand, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -416,7 +416,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Ubuntu Mono, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 code {
   font-size: 87.5%;
@@ -3763,7 +3763,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: Quicksand, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -3848,7 +3848,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: Quicksand, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6491,10 +6491,19 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important; } }
 body {
-  background: lightskyblue; }
+  background: #292d2c;
+  font-family: 'Raleway'; }
+
+button:focus {
+  outline: 0; }
 
 .navbar {
-  font-weight: 100; }
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-weight: 100;
+  z-index: 3; }
   .navbar .navbar-brand h3 {
     font-weight: 300; }
   .navbar .nav-item {
@@ -6505,7 +6514,18 @@ body {
 
 #showcase {
   background: url("../images/main.jpeg") bottom center/cover no-repeat;
-  min-height: 700px; }
+  min-height: 700px;
+  position: relative; }
+  #showcase #header {
+    z-index: 2; }
+  #showcase #overlay {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
   #showcase h1 {
     font-family: 'Questrial', sans-serif;
     line-height: 1; }
