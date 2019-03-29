@@ -3,5 +3,16 @@ $font-family-serif:      Merriweather, Georgia, "Times New Roman", Times, serif 
 $font-family-monospace:  Ubuntu Mono, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:       $font-family-sans-serif !default;
 
+$blue:    #1976D2 !default;
+$indigo:  #3F51B5!default;
+$purple:  #673AB7 !default;
+$pink:    #F48FB1!default;
+$red:     #c62828 !default;
+$orange:  #FFA726 !default;
+$yellow:  #FFF176 !default;
+$green:   #4CAF50 !default;
+$teal:    #26A69A!default;
+$cyan:    #26C6DA !default;
+
 
 @import "../bootstrap/scss/bootstrap.scss"
