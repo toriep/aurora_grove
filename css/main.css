@@ -6490,5 +6490,23 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
+body {
+  background: lightskyblue; }
+
+.navbar {
+  font-weight: 100; }
+  .navbar .navbar-brand h3 {
+    font-weight: 300; }
+  .navbar .nav-item {
+    padding: 0 20px; }
+  .navbar .nav-item:hover {
+    transition: border 0.2s;
+    border-bottom: 1px solid white; }
+
+@media (max-width: 768px) {
+  .navbar {
+    background: #1f1f1f; }
+    .navbar .nav-item:hover {
+      border-bottom: none; } }
 
 /*# sourceMappingURL=main.css.map */
